@@ -31,7 +31,7 @@ html {
 }
 
 .colored {
-    background: #89dceb;
+    background: #89b4fa;
 }
 
 #get-gridsize {
@@ -43,4 +43,10 @@ html {
     padding: 20px;
     color: #cdd6f4;
     margin: 40px auto;
+}
+
+#get-gridsize:hover {
+    border-color: #6c7086;
+    background-color: #313244;
+    color: #a6adc8;
 }
