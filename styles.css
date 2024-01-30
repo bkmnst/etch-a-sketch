@@ -11,7 +11,7 @@ html {
     font-family: Inter;
 }
 
-.title {
+#title {
     text-align: center;
     margin: 40px;
     color: #cdd6f4;
@@ -22,6 +22,9 @@ html {
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
+    margin: auto;
+    border: #9399b2 solid 5px;
+    border-radius: 1%;
 }
 
 .pixel {
