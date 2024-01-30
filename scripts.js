@@ -25,4 +25,9 @@ function createGrid(gridSize = DEFAULT_GRID_SIZE) {
     }
 }
 
+function deleteGrid() {
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
+    }
+}
 createGrid();
