@@ -2,6 +2,10 @@ html {
     background-color: #1e1e2e;
 }
 
+#container {
+    display: flex;
+}
+
 .pixel {
     border: 1px solid white;
 }
