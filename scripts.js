@@ -3,7 +3,6 @@ const MAX_FIELD_SIZE = 100;
 const container = document.querySelector("#container");
 
 const pixel = document.createElement("div");
-pixel.classList.add("pixel");
 
 
 // Fill the grid field
