@@ -29,4 +29,21 @@ function deleteGrid() {
         container.removeChild(container.firstChild);
     }
 }
+
+function getGridSize() {
+    let userInput = prompt("Enter desired pixel density (100px max)");
+    return Number(userInput);
+}
+
+const getGridSizeButton = document.querySelector("#get-gridsize");
+getGridSizeButton.addEventListener("click", () => {
+    let newGridSize = getGridSize();
+    if (newGridSize > 100 || newGridSize < 1 || isNaN(newGridSize)) {
+        alert("Invalid input.");
+    } else {
+        deleteGrid();
+        createGrid(newGridSize);
+    }
+})
+
 createGrid();

@@ -17,8 +17,11 @@ html {
     color: #cdd6f4;
 }
 
-#container {
+.flex {
     display: flex;
+}
+
+#container {
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
@@ -29,4 +32,15 @@ html {
 
 .colored {
     background: #89dceb;
+}
+
+#get-gridsize {
+    font-family: Inter;
+    font-size: large;
+    border: #9399b2 solid 5px;
+    background-color: #45475a;
+    border-radius: 10px;
+    padding: 20px;
+    color: #cdd6f4;
+    margin: 40px auto;
 }
